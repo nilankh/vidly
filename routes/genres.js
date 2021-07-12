@@ -27,7 +27,7 @@ router.put('/:id', async (req, res) => {
     req.params.id,
     { name: req.body.name },
     {
-      new: true,
+      new: true,//to get the update object from database
     }
   )
 
